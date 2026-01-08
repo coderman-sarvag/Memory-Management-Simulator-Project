@@ -1,23 +1,8 @@
-# Cache Test File
-
-# Initialize cache: block size = 64 bytes
-# L1 = 256 bytes, L2 = 512 bytes, L3 = 1024 bytes
-cache_init 64 256 512 1024
-
-# Set cache to 2-way set associative
-cache_assoc set 2
-
-# First access: compulsory miss (goes to memory)
+init 512
+strategy first
+malloc A 128
+cache_reset
 access A 0
-
-# Different block, same set → miss
-access A 64
-
-# Another block, same set → miss, FIFO replacement starts
-access A 128
-
-# Access first block again → should be cache hit (depending on FIFO state)
 access A 0
-
-# Display cache statistics
 cache_stats
+
