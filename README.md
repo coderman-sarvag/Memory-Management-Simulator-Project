@@ -69,7 +69,7 @@ stats
 ---
 
 ## Demo Video
-Demo video is accessible in the repository as well as on the google drive link : 
+Demo video is accessible in the repository as well as on the google drive link : https://drive.google.com/drive/folders/1_beRswbxMwOQG_4_5vqkYgLAi2zT8E0j?usp=drive_link
 
 ---
 
