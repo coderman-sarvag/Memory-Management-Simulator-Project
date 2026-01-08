@@ -1,0 +1,6 @@
+mode buddy
+init 1024
+malloc A 100
+malloc B 200
+dump
+stats
