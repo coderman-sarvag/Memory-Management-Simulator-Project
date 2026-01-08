@@ -85,7 +85,7 @@ Each subsystem is independent but integrated through a unified CLI.
 ---
 
 ## 6. Integration Flow
-
+```text
 User Command
 ↓
 Memory Allocation (process exists)
@@ -95,7 +95,7 @@ Virtual Memory Translation
 Cache Lookup (L1 → L2 → L3)
 ↓
 Main Memory
-
+```
 ---
 
 ## 7. Design Choices
