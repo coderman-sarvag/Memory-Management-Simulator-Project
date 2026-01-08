@@ -65,6 +65,7 @@ dump
 stats
 ```
 ## Project Structure
+```text
 Memory-Management-Simulator/
 │
 ├── include/                # Header files (.h)
@@ -91,6 +92,7 @@ Memory-Management-Simulator/
 ├── DESIGN.md
 ├── USER_GUIDE.md
 └── Makefile
+```
 
 ---
 
