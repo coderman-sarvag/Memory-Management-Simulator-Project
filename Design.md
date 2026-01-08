@@ -1,7 +1,7 @@
 
 # 📄 2. `DESIGN.md`
 
-```md
+
 # Design Document – Memory Management Simulator
 
 ## 1. Overview
