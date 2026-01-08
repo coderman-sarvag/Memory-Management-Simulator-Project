@@ -6,7 +6,11 @@ A C++ command-line simulator demonstrating core **Operating System memory manage
 - Multilevel cache hierarchy
 - Virtual memory with paging and replacement policies
 
-This project is designed for **educational purposes** and closely follows OS textbook models.
+
+---
+
+## Demo Video
+Demo video is accessible in the repository as well as on the google drive link : https://drive.google.com/drive/folders/1_beRswbxMwOQG_4_5vqkYgLAi2zT8E0j?usp=drive_link
 
 ---
 
@@ -94,12 +98,6 @@ Memory-Management-Simulator/
 └── Makefile
 ```
 
----
-
-## Demo Video
-Demo video is accessible in the repository as well as on the google drive link : https://drive.google.com/drive/folders/1_beRswbxMwOQG_4_5vqkYgLAi2zT8E0j?usp=drive_link
-
----
 
 ## Notes
 1. Cache and virtual memory access require an allocated process.
