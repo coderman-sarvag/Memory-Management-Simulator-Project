@@ -1,0 +1,17 @@
+EXPECTED OUTPUT DESCRIPTION
+
+CACHE TEST:
+- Initial accesses result in cache misses (cold misses).
+- Subsequent access to previously loaded block may result in L1/L2/L3 hit.
+- FIFO replacement evicts the oldest block in each set.
+- cache_stats shows hits, misses, and hit ratios per cache level.
+
+VIRTUAL MEMORY TEST:
+- First accesses generate page faults.
+- Under FIFO, pages are evicted in order of arrival.
+- Under LRU, the least recently used page is evicted.
+- vm_stats displays page hits and page faults for each policy.
+
+NOTE:
+Exact hit/miss counts may vary depending on cache configuration,
+but qualitative behavior must match the described policy.

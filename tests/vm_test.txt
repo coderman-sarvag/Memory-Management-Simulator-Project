@@ -1,0 +1,30 @@
+# Virtual Memory Test File
+
+# Initialize main memory
+init 1024
+
+# Use FIFO page replacement
+vm_mode fifo
+
+# First accesses cause page faults
+access A 0
+access A 64
+access A 128
+
+# Re-access page 0 (may fault depending on FIFO)
+access A 0
+
+# Display VM stats
+vm_stats
+
+# Switch to LRU policy
+vm_mode lru
+
+# Access pattern to show LRU behavior
+access A 0
+access A 64
+access A 0
+access A 128
+
+# Display VM stats again
+vm_stats
