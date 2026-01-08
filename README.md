@@ -65,6 +65,32 @@ dump
 stats
 ```
 ## Project Structure
+Memory-Management-Simulator/
+│
+├── include/                # Header files (.h)
+│   ├── MemoryAllocator.h
+│   ├── BuddyAllocator.h
+│   ├── Cache.h
+│   ├── VirtualMemory.h
+│   └── MemoryBlock.h
+│
+├── src/                    # Source files (.cpp)
+│   ├── main.cpp
+│   ├── MemoryAllocator.cpp
+│   ├── BuddyAllocator.cpp
+│   ├── Cache.cpp
+│   └── VirtualMemory.cpp
+│
+├── tests/                  # Test input files
+│   ├── memory_test.txt
+│   ├── cache_test.txt
+│   ├── vm_test.txt
+│   └── buddy_test.txt
+│
+├── README.md
+├── DESIGN.md
+├── USER_GUIDE.md
+└── Makefile
 
 ---
 
