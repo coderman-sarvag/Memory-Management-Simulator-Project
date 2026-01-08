@@ -5,7 +5,7 @@
 # Design Document – Memory Management Simulator
 
 ## 1. Overview
-This simulator models key OS memory subsystems in a modular and extensible manner:
+This simulator models key OS memory subsystems in a modular manner:
 - Memory allocation
 - Cache hierarchy
 - Virtual memory
@@ -72,7 +72,7 @@ Each subsystem is independent but integrated through a unified CLI.
 - Physical address = frame number × page size + offset
 
 ### 5.2 Page Replacement Policies
-- FIFO
+- FIFO (First in First out)
 - LRU (Least Recently Used)
 
 ### 5.3 Frame Reuse
@@ -99,12 +99,12 @@ Main Memory
 ---
 
 ## 7. Design Choices
-- Utilization depends on reserved memory, not requested memory.
+- Utilization depends on reserved memory and requested memory.
 - Cache uses FIFO only for simplicity.
 - Modular class-based design for clarity and extensibility.
 
 ---
 
 ## 8. Conclusion
-The simulator faithfully represents OS memory behavior while remaining simple and demonstrable.
+The simulator represents OS memory behavior.
 
